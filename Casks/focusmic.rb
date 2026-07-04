@@ -1,8 +1,8 @@
 cask "focusmic" do
-  version "0.0.1"
-  sha256 "cdfb0899df8a4420a5bb46f572154f22a627115a14db3c1213da0b8fabe77c2e"
+  version "0.0.2"
+  sha256 "b91ea5ce57e6685ee152ac7e9689a5a6fffed4a8f0f483327bb1f7c7a306e8bc"
 
-  url "https://github.com/lageev/FocusMic/releases/download/v#{version}/FocusMic.dmg",
+  url "https://github.com/lageev/FocusMic/releases/download/v#{version}/FocusMic-#{version}.zip",
       verified: "github.com/lageev/FocusMic/"
   name "FocusMic"
   desc "Keep the default audio input locked to your preferred microphone"
