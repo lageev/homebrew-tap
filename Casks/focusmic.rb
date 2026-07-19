@@ -1,6 +1,6 @@
 cask "focusmic" do
   version "0.0.4"
-  sha256 "fdad47c726cee74f57ce9075136940844797879ff58e95c3dc40b2c2e531693c"
+  sha256 "9f5385eabcbad5d7bb08baf0d1393d0ea671a15ae463285c37dc723e727666f9"
 
   url "https://github.com/lageev/FocusMic/releases/download/v#{version}/FocusMic-\#{version}.zip",
       verified: "github.com/lageev/FocusMic/"
