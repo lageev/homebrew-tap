@@ -1,6 +1,6 @@
 cask "studio-mini" do
   version "0.2.4"
-  sha256 "633f76478d1a757d235ab00ec2daaf26827b6ada2f58136654b2b266a6b74f4a"
+  sha256 "3c34f2c30d750c118b7c837cd3af18ce646f8e862af90d9fe11c6f1db85caff1"
 
   url "https://github.com/lageev/StudioMini/releases/download/v#{version}/Studio-Mini-#{version}.zip"
   name "Studio Mini"
