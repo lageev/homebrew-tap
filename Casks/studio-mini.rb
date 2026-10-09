@@ -1,8 +1,8 @@
 cask "studio-mini" do
-  version "0.2.11"
-  sha256 "c032a2f55ba8ef8684a74bd0e2434ba503753b9ca1fd38fc6ec5a14758a21945"
+  version "0.2.11,23"
+  sha256 "7263b0bbb64dd15908c1a985a8581c535ca3e1508dc6949e8afb9f42b431dd55"
 
-  url "https://github.com/lageev/StudioMini/releases/download/v#{version}/Studio-Mini-#{version}.zip"
+  url "https://github.com/lageev/StudioMini/releases/download/v#{version.csv.first}/Studio-Mini-#{version.csv.first}.zip"
   name "Studio Mini"
   desc "Build, install, and manage Android APKs"
   homepage "https://github.com/lageev/StudioMini"
